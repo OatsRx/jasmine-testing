@@ -3,6 +3,6 @@ function addition(numOne, numTwo) {
        "number") {
     return numOne + numTwo;
     } else {
-    return "Error!";
+    alert("Error!");
     }
 }
