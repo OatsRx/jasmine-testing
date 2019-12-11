@@ -1,7 +1,7 @@
 describe("Calculator", function(){
     
-    beforeEach(function() { //before each test instance we can reset the value of Calculator back to 0
-    var calc = new Calculator; //assigning "Calculator" object to variable "calc"
+    beforeEach(function() { //before each test instance we can reset the value of "Calculator" back to 0
+       calc = new Calculator; //assigning "Calculator" object to variable "calc"
     });
     
     describe("Addition tests", function() {
